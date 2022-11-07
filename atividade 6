@@ -1,0 +1,29 @@
+JSS
+
+var palavras
+
+//coloca as palavras em um vetor
+
+palavras [0]= prompt ("1" palavra?");
+
+palavras [1]= prompt ("2" palavra?"); 
+
+palavras [2]= prompt("3° Palavra?");
+
+var random;
+
+var aleatorias = [];
+
+for (var i=1; i < 3; i++){
+
+//gera n" aleatório de 0 a 2
+
+random = Math.floor(Math.random()* 3);
+
+// empilha a palavra escolhida
+
+aleatorias.push(palavras [random]);
+
+console.log("olha o/a aleatorias.pop(" "+aleatorias.pop()" e dig
+
+aleatorias.pop());
