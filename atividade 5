@@ -1,0 +1,30 @@
+input = [];
+
+input[0] = parseInt(prompt ("n1?")); input[1] = parseInt(prompt ("n2?"));
+
+input[2] = parseInt(prompt ("n3?"));
+
+input [3] parseInt(prompt ("n4?"));
+
+var i, j, aux;
+
+var ordenado = input;
+
+// ordena os números
+
+for (i = 0; i < 4; i++){
+
+for(j= i; j < 4; j++){
+
+if (ordenado [i] < ordenado [j]){
+
+aux = ordenado[i];
+
+ordenado [i] = ordenado [j];
+
+ordenado [j] = aux;
+      }
+   }
+}
+
+alert(ordenado);
